@@ -3,4 +3,4 @@
 #### To build the image run the following command;
 ##### ```docker build -t test4 .```
 #### To run the container run the following command;
-##### ```docker run -p 80:80 -p 443:443 --name test14 test4```
+##### ```docker run -p 80:80 -p 443:443 --name test14 -d test4```
