@@ -3,5 +3,5 @@
 #### To build the image run the following command;
 ##### ```docker build -t IMAGE-NAME .```
 #### To run the container run the following command;
-##### ```docker run -p 80:80 -p 443:443 --name CONTAINER-NAME -d IMAGE-NAME```
+##### ```docker run -p 80:80 --name CONTAINER-NAME -d IMAGE-NAME```
 #### Then you can go into your web browser and type localhost to see your application running
