@@ -4,3 +4,4 @@
 ##### ```docker build -t image-name .```
 #### To run the container run the following command;
 ##### ```docker run -p 80:80 -p 443:443 --name container-name -d image-name```
+### Then you can go into your web browser and type localhost
